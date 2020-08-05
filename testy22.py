@@ -11,4 +11,4 @@ B = (1) / (C18 * (R13 + R15)) - (1) / (C18 * R13) * (R16) / (C18 * R13 * (R14 + 
 u = Matrix([V1])
 V4r = (R4) / (R4 + R2)
 V5r = (R5) / (R5 + R3)
-MadCuzBad = (V5r + (V4r - V5r)(R9/R8)) + (V4r - (V4r - V5r)(R7/R8))
+MCB = (V5r + (V4r - V5r)*(R9/R8)) + (V4r - (V4r - V5r)*(R7/R8))
